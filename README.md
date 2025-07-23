@@ -25,3 +25,20 @@ We used the **Synthetic Fraud Dataset**, which simulates real-world transaction 
 
 ## ⚙️ Project Structure
 
+project-root/
+│
+├── data/
+│ └── synthetic_fraud_dataset.csv
+│
+├── knn_flood_optimization.py
+├── svm_flood_optimization.py
+├── rf_flood_optimization.py
+├── utils/
+│ ├── feature_selection.py
+│ └── fitness_sphere.py
+│
+├── results/
+│ └── evaluation_metrics.csv
+│
+└── README.md
+
